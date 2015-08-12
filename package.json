@@ -1,0 +1,23 @@
+{
+  "name": "hji_cynthia_holiday_blvd",
+  "version": "0.5.0",
+  "author": "Kevin McCartney <kevinm@hjimail.com>",
+  "homepage": "http://homejunction.com",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-livereload": "^1.3.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.14"
+  }
+}
