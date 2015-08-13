@@ -52,15 +52,15 @@
 
             <?php do_action( 'hji_theme_after_primary' ); ?>
 
-            <?php if( is_active('fullwidth_qs') ) : ?>
+            <?php if( is_active_sidebar('fullwidth_qs') ) : ?>
 
                 <div class="fullwidth-quicksearch-wrapper widget-area" role="complementary">
                     
                     <?php dynamic_sidebar( 'fullwidth_qs' ); ?>
                 
                 </div>
-
-            <?php endif; ?>
+    
+            <?php endif; ?>        
 
             <section class="container">
 
