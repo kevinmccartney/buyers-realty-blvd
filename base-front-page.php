@@ -54,7 +54,7 @@
 
             <?php if( is_active_sidebar('fullwidth_qs') ) : ?>
 
-                <div class="fullwidth-quicksearch-wrapper widget-area" role="complementary">
+                <div class="fullwidth-quicksearch-wrapper widget-area container-fluid" role="complementary">
                     
                     <?php dynamic_sidebar( 'fullwidth_qs' ); ?>
                 

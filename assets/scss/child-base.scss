@@ -9,4 +9,7 @@
 @import "../../../hji-boulevard/assets/scss/base";
 
 /* Import Child Theme Stuff */
+@import "partials/child-globals";
+@import "partials/content";
 @import "partials/header";
+@import "partials/ridx-slider";

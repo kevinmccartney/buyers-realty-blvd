@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Content
+   ========================================================================== */
+#content {
+    padding: $padding-base-vertical $padding-base-horizontal;
+    @include box-shadow( 0 5px 14px rgba(0,0,0,0.5) );
+
+    // ridx details pages
+    #listing-details {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    // bootstrap tabs
+    .nav-tabs > li {
+        margin-right: .5rem;
+
+        &:not(.active) > a {
+            @include gradient-vertical( $body-bg, change-color( $body-bg, $body-bg, 5% ) );
+            border: 1px solid $nav-tabs-border-color;
+        }
+    }
+
+    // bootstrap tab content
+    .tab-content {
+        border: 1px solid $nav-tabs-border-color;
+        border-top: 0;
+        border-radius: 0 0 $border-radius-base $border-radius-base;
+
+    }
+}

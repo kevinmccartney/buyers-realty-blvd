@@ -1,2 +1,2 @@
-# Cynthia Holiday Blvd Child Theme
-This child theme utilizes the Boulevard Theme Framework by Home Junction, Inc.
+## Dan Bradford Boulevard Child Theme
+> This is a custom child theme built by Kevin McCartney on Behalf of Home Junction Inc. for Dan Bradford on the Boulevard framework.
