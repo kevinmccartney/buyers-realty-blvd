@@ -4,8 +4,7 @@
 
     // ridx details pages
     #listing-details {
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
     }
 
     // bootstrap tabs
@@ -30,5 +29,6 @@
 body:not(.home) #content {
     margin: 2rem auto;
     box-shadow: $black 1px 2px 20px;
+    background-color: $white;
 }
 

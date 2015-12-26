@@ -5,6 +5,7 @@
                     $pretty_color,
                     // $pretty_bg_color,
                     $pretty_trans) {
+    -webkit-transition: $pretty_trans;
     transition: $pretty_trans;
     &:hover,
     &:active {

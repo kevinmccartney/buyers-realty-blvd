@@ -3,55 +3,34 @@
     margin-bottom: 2rem;
 }
 
-// I usually put a border on top of my footers. it's nice. also a few color resets
-#footer {
+#footer .custom-agent-name {
     color: $white;
-    // a reset on the widget-title color
-    h3 {
-        color: $white;
-        margin-top: 0;
-    }
-    // resets on the footer gravity form
-    .ginput_container input,
-    .ginput_container textarea {
-        background-color: transparent;
-        box-shadow: none !important;
-        color: #fff;
-        border-bottom: 1px solid $white;
-    }
+    margin-top: 0;
+}
+
+#footer {
     .gform_button {
+        border: 0 !important;
         background-color: $brand-fourth;
         &:hover,
         &:active,
         &:focus {
-            background-color: $brand-fourth-dark-20;
             border: 0 !important;
+            background-color: $brand-fourth-dark-20;
         }
     }
 }
-
-// centers the gravform submit button
-.gform_footer.top_label {
-    text-align: center;
-    input {
-        border: 0;
-    }
-}
-
 .well.custom-contact-widget {
-    background-color: transparent;
     border: 0;
-}
-
-.custom-footer-contact-btn-wrapper {
-    text-align: center;
+    background-color: transparent;
 }
 
 button.btn.btn-primary.custom-contact {
-    font-size: 24px;
-    background-color: transparent;
-    border: #fff solid 3px;
+    font-size: 2rem;
+    background-color: $brand-fourth;
+    border: 0;
     text-transform: uppercase;
     letter-spacing: 10px;
     width: 100%;
+    text-shadow: $brand-fourth-dark-20 2px 2px 4px;
 }

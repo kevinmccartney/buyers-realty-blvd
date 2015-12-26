@@ -39,18 +39,11 @@ a {
     @include transition( all 0.35s ease-in-out );
 }
 
-.entry-content {
-    a {
-        text-decoration: underline;
-    }
-}
-
-
 // applies the pretty_hover mixin to all rIDX pod titles
 a.listing-title {
-    @include pretty_hover(none, $brand-primary, ease 0.35s);
+    @include pretty_hover(none, $brand-fourth, ease 0.35s);
     h4 {
-        @include pretty_hover(none, $brand-primary, ease 0.35s);
+        @include pretty_hover(none, $brand-fourth, ease 0.35s);
     }
 }
 
@@ -64,14 +57,6 @@ ul.nav.nav-tabs,
     @include no_borders;
 }
 
-
-// hides spatialmatch map on mobile
-.hjitb.quick-search-widget-wrapper.is-mobile {
-    @media(max-width: $grid-float-breakpoint) {
-        display: none;
-    }
-}
-
 // makes the rIDX listings grid 3/4 width centered on the screen on $screen-xs
 .idx-results {
     @include mobile_landscape {
@@ -81,14 +66,10 @@ ul.nav.nav-tabs,
 }
 
 // applies the tab_styling mixin to tabs
-.nav-tabs> li.active> a,
-.nav-tabs> li.active> a:hover,
-.nav-tabs> li.active> a:focus {
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
     @include tab_styling;
-}
-
-#content {
-    box-shadow: none;
 }
 
 input.btn.btn-primary.idx_call2action {
@@ -99,4 +80,8 @@ input.btn.btn-primary.idx_call2action {
         background-color: $brand-fourth-dark-20;
         border: 0 !important;
     }
+}
+
+a.adv-options-toggle {
+    color: $white;
 }

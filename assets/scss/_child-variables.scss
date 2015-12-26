@@ -2,15 +2,6 @@ $brand-primary: #1A204C;
 $brand-second: #fff;
 $brand-third: #4d4d4d;
 
-$brand-primary-light: lighten( $brand-primary, 20% ) !default;
-$brand-primary-dark: darken( $brand-primary, 20% ) !default;
-
-$brand-second-light: lighten( $brand-second, 20% ) !default;
-$brand-second-dark: darken( $brand-second, 20% ) !default;
-
-$brand-third-light: lighten( $brand-third, 20% ) !default;
-$brand-third-dark: darken( $brand-third, 20% ) !default;
-
 $brand-primary-light-20: lighten($brand-primary, 20%);
 $brand-primary-dark-20: darken($brand-primary, 20%);
 
