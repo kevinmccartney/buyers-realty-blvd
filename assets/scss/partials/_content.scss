@@ -1,7 +1,4 @@
 #content {
-    padding: $padding-base-vertical $padding-base-horizontal;
-    @include box-shadow( 0 5px 14px rgba(0,0,0,0.5) );
-
     // ridx details pages
     #listing-details {
         margin: 0;
@@ -28,6 +25,7 @@
 
 body:not(.home) #content {
     margin: 2rem auto;
+    padding: 2rem;
     box-shadow: $black 1px 2px 20px;
     background-color: $white;
 }

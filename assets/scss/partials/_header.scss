@@ -1,5 +1,5 @@
 a.hji-user-signup {
-    color: $white;
+    color: $brand-fourth;
     text-decoration: underline;
 }
 
@@ -19,6 +19,10 @@ div[id^="hji-theme-main-menu-widget"] {
 
 .navbar-default .navbar-toggle {
     border: 0;
+    background-color: $brand-primary;
+    .icon-bar {
+        background-color: $white;
+    }
     &:hover,
     &:focus,
     &:active {

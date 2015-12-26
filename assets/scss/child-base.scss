@@ -8,6 +8,8 @@
 /* Boulevard Base Import */
 @import "../../../hji-boulevard/assets/scss/base";
 
+/* Import more weights of Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 /* Import child variables & mixins */
 @import "child-variables";
@@ -19,4 +21,3 @@
 @import "partials/footer";
 @import "partials/header";
 @import "partials/homepage";
-@import "partials/ridx-slider";
