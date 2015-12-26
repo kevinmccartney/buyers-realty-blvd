@@ -1,9 +1,12 @@
-#content {
+body:not(.home) #content {
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: $black 1px 2px 20px;
+    background-color: $white;
     // ridx details pages
     #listing-details {
         margin: 0;
     }
-
     // bootstrap tabs
     .nav-tabs > li {
         margin-right: .5rem;
@@ -21,12 +24,5 @@
         border-radius: 0 0 $border-radius-base $border-radius-base;
 
     }
-}
-
-body:not(.home) #content {
-    margin: 2rem auto;
-    padding: 2rem;
-    box-shadow: $black 1px 2px 20px;
-    background-color: $white;
 }
 

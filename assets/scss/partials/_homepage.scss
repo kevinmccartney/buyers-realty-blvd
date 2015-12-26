@@ -2,6 +2,10 @@
     top: inherit;
 }
 
+.home section#primary {
+    margin-top: 1rem;
+}
+
 .widget-title h3 {
     font-size: 3rem;
     letter-spacing: 2px;
@@ -12,7 +16,7 @@
     margin-top: 35rem;
     background-color: $brand-primary;
 }
-
+.home button.btn.btn-primary.search-now
 .home button.btn.btn-primary.hv-submit {
       border: 0 !important;
       background-color: $brand-fourth;
@@ -83,7 +87,7 @@ li.custom-content-items {
 }
 
 h2.homepage-widget-custom-title {
-    color: #fff;
+    color: $white;
     letter-spacing: 3px;
     text-align: center;
     text-shadow: $brand-primary-dark-20 2px 4px 16px;

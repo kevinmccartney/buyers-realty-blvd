@@ -1,10 +1,17 @@
 a.hji-user-signup {
     color: $brand-fourth;
-    text-decoration: underline;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+    }
 }
 
 div[id^="hji-theme-main-menu-widget"] {
-    margin-top: 7rem !important;
+    font-weight: 400;
+    @media(min-width: $screen-lg) {
+        margin-top: 7rem !important;
+    }
 }
 
 // this block sets styles the dropdown items in the main menu
