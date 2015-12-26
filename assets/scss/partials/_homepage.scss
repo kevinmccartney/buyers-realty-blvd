@@ -59,13 +59,16 @@ li.custom-content-items {
     padding: 0 10px;
     width: 50%;
     a {
-        border: 2px solid $white;
+        border: 3px solid $white;
         margin: 0 !important;
         background-color: transparent;
         color: $white;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 2px;
         text-decoration: none;
         text-align: center;
-        text-shadow: $black 2px 2px 4px;
+        text-shadow: $brand-primary-dark-20 2px 2px 4px;
         &:hover,
         &:active,
         &:focus {
@@ -81,12 +84,12 @@ li.custom-content-items {
     .nav-tabs > li.active > a:focus {
         border: 3px solid $brand-primary;
         background-color: $brand-fourth;
-        color: $white;
         text-shadow: $brand-fourth-dark-20 4px 4px 8px;
     }
 }
 
 h2.homepage-widget-custom-title {
+    margin-top: 1rem;
     color: $white;
     letter-spacing: 3px;
     text-align: center;
