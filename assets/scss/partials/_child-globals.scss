@@ -1,20 +1,3 @@
-/* ==========================================================================
-  Variables
-  ========================================================================== */
-$brand-primary-light: lighten( $brand-primary, 20% ) !default;
-$brand-primary-dark: darken( $brand-primary, 20% ) !default;
-
-$brand-second-light: lighten( $brand-second, 20% ) !default;
-$brand-second-dark: darken( $brand-second, 20% ) !default;
-
-$brand-third-light: lighten( $brand-third, 20% ) !default;
-$brand-third-dark: darken( $brand-third, 20% ) !default;
-
-
-
-/* ==========================================================================
-  Global
-  ========================================================================== */
 .btn,
 .btn-lg,
 input,
@@ -59,5 +42,61 @@ a {
 .entry-content {
     a {
         text-decoration: underline;
+    }
+}
+
+
+// applies the pretty_hover mixin to all rIDX pod titles
+a.listing-title {
+    @include pretty_hover(none, $brand-primary, ease 0.35s);
+    h4 {
+        @include pretty_hover(none, $brand-primary, ease 0.35s);
+    }
+}
+
+// no borders, please
+.tab-content,
+.banner .top-header,
+ul.nav.nav-tabs,
+.navbar-default,
+.hji-home-value-form.widget,
+.quick-search-widget-wrapper {
+    @include no_borders;
+}
+
+
+// hides spatialmatch map on mobile
+.hjitb.quick-search-widget-wrapper.is-mobile {
+    @media(max-width: $grid-float-breakpoint) {
+        display: none;
+    }
+}
+
+// makes the rIDX listings grid 3/4 width centered on the screen on $screen-xs
+.idx-results {
+    @include mobile_landscape {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+// applies the tab_styling mixin to tabs
+.nav-tabs> li.active> a,
+.nav-tabs> li.active> a:hover,
+.nav-tabs> li.active> a:focus {
+    @include tab_styling;
+}
+
+#content {
+    box-shadow: none;
+}
+
+input.btn.btn-primary.idx_call2action {
+    background-color: $brand-fourth;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $brand-fourth-dark-20;
+        border: 0 !important;
     }
 }

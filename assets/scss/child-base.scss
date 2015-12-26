@@ -8,8 +8,15 @@
 /* Boulevard Base Import */
 @import "../../../hji-boulevard/assets/scss/base";
 
+
+/* Import child variables & mixins */
+@import "child-varibles";
+@import "partials/mixins";
+
 /* Import Child Theme Stuff */
 @import "partials/child-globals";
 @import "partials/content";
+@import "partials/footer";
 @import "partials/header";
+@import "partials/homepage";
 @import "partials/ridx-slider";

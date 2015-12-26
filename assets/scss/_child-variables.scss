@@ -1,0 +1,47 @@
+// PSA:
+// I know I said imports, but really don't import here
+// unless they are about to cut your arm off.
+
+$brand-primary: #1A204C;
+$brand-second: #fff;
+$brand-third: #4d4d4d;
+
+// color vars- these can be trimmed at your discretion
+$brand-primary-light-20: lighten($brand-primary, 20%);
+// $brand-primary-light-30: lighten($brand-primary, 30%);
+// $brand-primary-light-40: lighten($brand-primary, 40%);
+// $brand-primary-light-50: lighten($brand-primary, 50%);
+
+$brand-primary-dark-20: darken($brand-primary, 20%);
+// $brand-primary-dark-30: darken($brand-primary, 30%);
+// $brand-primary-dark-40: darken($brand-primary, 40%);
+// $brand-primary-dark-50: darken($brand-primary, 50%);
+
+$brand-third-dark-20: darken($brand-third, 20%);
+
+$brand-fourth: #3FA4D4;
+$brand-fourth-dark-20: darken($brand-fourth, 20%);
+
+$white: #fff;
+$black: #000;
+// $grey: #808080;
+
+// $grey-light-20: lighten($grey, 20%);
+// $grey-light-30: lighten($grey, 30%);
+// $grey-light-40: lighten($grey, 40%);
+// $grey-light-50: lighten($grey, 50%);
+
+// $grey-dark-20: darken($grey, 20%);
+// $grey-dark-30: darken($grey, 30%);
+// $grey-dark-40: darken($grey, 40%);
+// $grey-dark-50: darken($grey, 50%);
+
+
+$brand-primary-light: lighten( $brand-primary, 20% ) !default;
+$brand-primary-dark: darken( $brand-primary, 20% ) !default;
+
+$brand-second-light: lighten( $brand-second, 20% ) !default;
+$brand-second-dark: darken( $brand-second, 20% ) !default;
+
+$brand-third-light: lighten( $brand-third, 20% ) !default;
+$brand-third-dark: darken( $brand-third, 20% ) !default;
