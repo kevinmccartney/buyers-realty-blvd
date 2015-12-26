@@ -1,0 +1,57 @@
+// a bottom margin for the footer widgets so they don't sit right on top of the copyright
+.footer-widgets.row {
+    margin-bottom: 2rem;
+}
+
+// I usually put a border on top of my footers. it's nice. also a few color resets
+#footer {
+    color: $white;
+    // a reset on the widget-title color
+    h3 {
+        color: $white;
+        margin-top: 0;
+    }
+    // resets on the footer gravity form
+    .ginput_container input,
+    .ginput_container textarea {
+        background-color: transparent;
+        box-shadow: none !important;
+        color: #fff;
+        border-bottom: 1px solid $white;
+    }
+    .gform_button {
+        background-color: $brand-fourth;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $brand-fourth-dark-20;
+            border: 0 !important;
+        }
+    }
+}
+
+// centers the gravform submit button
+.gform_footer.top_label {
+    text-align: center;
+    input {
+        border: 0;
+    }
+}
+
+.well.custom-contact-widget {
+    background-color: transparent;
+    border: 0;
+}
+
+.custom-footer-contact-btn-wrapper {
+    text-align: center;
+}
+
+button.btn.btn-primary.custom-contact {
+    font-size: 24px;
+    background-color: transparent;
+    border: #fff solid 3px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    width: 100%;
+}

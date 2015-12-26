@@ -15,9 +15,9 @@
         <div id="wrapper" class="body-wrapper">
 
             <?php do_action( 'hji_theme_before_navbar' ); ?>
-            
+
             <?php get_template_part( 'templates/header-navbar' ); ?>
-            
+
             <?php do_action( 'hji_theme_after_navbar' ); ?>
 
             <div class="blvd-slideshow"></div>
@@ -41,13 +41,13 @@
                     </div>
 
                     <?php do_action( 'hji_theme_before_sidebar' ); ?>
-                    
+
                     <?php ( hji_theme_display_sidebar() ? get_sidebar( hji_theme_template_base() ) : '' ) ?>
 
                     <?php do_action( 'hji_theme_after_sidebar' ); ?>
 
                 </div>
-            
+
             </section>
 
             <?php do_action( 'hji_theme_after_primary' ); ?>
@@ -55,12 +55,12 @@
             <?php if( is_active_sidebar('fullwidth_qs') ) : ?>
 
                 <div class="fullwidth-quicksearch-wrapper widget-area container-fluid" role="complementary">
-                    
+
                     <?php dynamic_sidebar( 'fullwidth_qs' ); ?>
-                
+
                 </div>
-    
-            <?php endif; ?>        
+
+            <?php endif; ?>
 
             <section class="container">
 
@@ -80,7 +80,7 @@
                         <div class="blvd-tabs-container tab-content">
                             <?php dynamic_sidebar('blvd-hometabwidgets'); ?>
                         </div>
-                        
+
                     </div>
 
                 <?php endif; ?>

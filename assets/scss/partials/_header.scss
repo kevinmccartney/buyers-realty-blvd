@@ -1,0 +1,35 @@
+a.hji-user-signup {
+    color: $white;
+}
+
+div[id^="hji-theme-main-menu-widget"] {
+    margin-top: 7rem !important;
+}
+
+// this block sets styles the dropdown items in the main menu
+.blvd-responsive-menu .dropdown-menu > li > a {
+    &:hover,
+    &:active,
+    &:focus {
+        color: $white;
+        text-decoation: none;
+        background-color: $brand-primary;
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+    &:hover,
+    &:focus,
+    &:active {
+        border: 0;
+    }
+}
+
+header.banner.navbar {
+    border-bottom: $brand-primary 5px solid;
+}
+
+a.adv-options-toggle {
+    color: $white;
+}

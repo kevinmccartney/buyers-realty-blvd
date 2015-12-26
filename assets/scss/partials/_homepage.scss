@@ -1,0 +1,175 @@
+.home .blvd-slideshow {
+    top: inherit;
+}
+
+.fullwidth-quicksearch-wrapper {
+    button.btn.btn-primary.hv-submit,
+    button.btn.btn-primary.search-now {
+        border: 0 !important;
+        background-color: $brand-fourth;
+        &:hover,
+        &:active,
+        &:focus {
+            border: 0 !important;
+            background-color: $brand-fourth-dark-20;
+        }
+    }
+}
+
+/*
+ * BEGIN $custom_widget_styles
+ * These styles govern the custom home value/quicksearch widget on
+ * the homepage.
+*/
+
+.homepage-custom-content-wrapper {
+    width: 75%;
+    margin: auto;
+    padding: 2rem 0;
+    .blvd-simplesearch-ridx {
+        width: 100%;
+    }
+}
+
+// sizes the tabs
+.custom-content-nav-tabs {
+    width: 100%;
+    margin: auto;
+    @media(min-width: $screen-sm) {
+        width: 50%;
+    }
+}
+
+.fullwidth-quicksearch-wrapper .quick-search-widget-wrapper {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+// styling for the list items
+li.custom-content-items {
+    width: 50%;
+    margin: 0;
+    padding: 0 10px;
+    a {
+        background-color: transparent;
+        text-decoration: none;
+        margin: 0 !important;
+        text-align: center;
+        border: 2px solid $white;
+        text-shadow: $black 2px 2px 4px;
+        color: $white;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $brand-fourth;
+            border: 2px solid $brand-fourth;
+        }
+    }
+
+}
+
+h2.homepage-widget-custom-title {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: $brand-primary-dark-20 2px 4px 16px;
+}
+
+// resets the standard tab-pane padding
+.custom-content-pane {
+    padding: 1rem;
+    clear: both;
+}
+
+// hover effects for the tabs & the quick serach wrapper
+.homepage-custom-content-wrapper {
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus {
+        background-color: $brand-fourth;
+        color: $white;
+        border: 3px solid $brand-primary;
+        text-shadow: $brand-fourth-dark-20 4px 4px 8px;
+    }
+    .custom-content-pane {
+        // background-color: rgba($black, 0.85);
+    }
+}
+
+/*
+ * END $custom_widget_styles
+*/
+
+// Pushes the widget row down below the slideshow
+.blvd-home-widgets.row {
+    margin-top: 5rem;
+}
+
+.home .hji-areas-ribbon {
+    display: none;
+}
+
+/*
+ * BEGIN $cta-styles
+ * these styles govern the CTAs on the homepage
+*/
+
+.custom-cta-wrapper {
+    margin-top: 5rem;
+}
+
+.custom-cta-pod {
+  text-align: center;
+  @media (max-width: 991px) {
+    margin-top: 5rem;
+  }
+}
+
+a.custom-cta {
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.custom-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  height: 200px;
+  background-color: transparent;
+  border: 3px solid $brand-primary;
+  transition: ease 0.5s;
+  &:hover,
+  &:active {
+    background-color: $brand-primary;
+    transform: scale(.95);
+    h3 {
+        color: $white;
+        text-shadow: darken( $brand-primary , 30% ) 5px 5px 10px;
+    }
+  }
+}
+
+h3.custom-cta {
+  color: $brand-primary;
+}
+
+/*
+ * END $cta-styles
+ */
+
+.widget-title h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.fullwidth-quicksearch-wrapper {
+    margin-top: 35rem;
+    background-color: $brand-primary;
+}
