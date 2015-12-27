@@ -60,7 +60,6 @@ ul.nav.nav-tabs,
     @include no_borders;
 }
 
-// makes the rIDX listings grid 3/4 width centered on the screen on $screen-xs
 .idx-results {
     @include mobile_landscape {
         width: 75%;
@@ -86,10 +85,11 @@ input.btn.btn-primary.idx_call2action {
     }
 }
 
-.hji-fieldwrap-inner.hji-yearbuilt-wrap,
-.hji-fieldwrap-inner.hji-size-wrap {
-    width: 50%;
+
+.hji-fieldwrap-inner.hji-size-wrap,
+.hji-fieldwrap-inner.hji-yearbuilt-wrap {
     display: inline-block;
+    width: 50%;
 }
 
 .hji-fieldwrap-inner:last-of-type {

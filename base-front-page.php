@@ -38,14 +38,6 @@
                         <?php dynamic_sidebar( 'blvd-homewidgets'); ?>
                     </div>
                 <?php endif; ?>
-                <?php if ( is_active_sidebar( 'blvd-hometabwidgets' ) ) : ?>
-                    <div class="blvd-tabwrap">
-                        <ul class="nav nav-tabs"></ul>
-                        <div class="blvd-tabs-container tab-content">
-                            <?php dynamic_sidebar('blvd-hometabwidgets'); ?>
-                        </div>
-                    </div>
-            <?php endif; ?>
         </section>
         <?php get_footer( hji_theme_template_base() ); ?>
     </div>
