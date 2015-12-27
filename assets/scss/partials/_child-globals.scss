@@ -43,6 +43,7 @@ a {
 a.listing-title {
     @include pretty_hover(none, $brand-fourth, ease 0.35s);
     h4 {
+        font-weight: 600;
         @include pretty_hover(none, $brand-fourth, ease 0.35s);
     }
 }
