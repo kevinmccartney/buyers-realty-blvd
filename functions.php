@@ -25,5 +25,3 @@ if ( !function_exists( 'hji_bradford_widgets_init' ) ) {
     }
     add_action('widgets_init', 'hji_bradford_widgets_init', 11);
 }
-
-?>

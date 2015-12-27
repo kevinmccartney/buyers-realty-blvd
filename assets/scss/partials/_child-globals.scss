@@ -10,7 +10,7 @@ input[type="email"],
 .tools-panel,
 .selectize-input {
     // add our drop shadow effect to all buttons and form elements
-    @include box-shadow( -3px 3px 0 0 rgba(0, 0, 0, .18) !important );
+    @include box-shadow(-3px 3px 0 0 rgba(0, 0, 0, 0.18) !important);
 
     &:active,
     &:focus,
@@ -29,6 +29,7 @@ input[type="email"],
     .add-to-favorites {
         @include box-shadow(none !important);
     }
+
     .btn-primary {
         line-height: initial;
     }
@@ -36,12 +37,13 @@ input[type="email"],
 
 // transition all our links
 a {
-    @include transition( all 0.35s ease-in-out );
+    @include transition(all 0.35s ease-in-out);
 }
 
 // applies the pretty_hover mixin to all rIDX pod titles
 a.listing-title {
     @include pretty_hover(none, $brand-fourth, ease 0.35s);
+
     h4 {
         font-weight: 600;
         @include pretty_hover(none, $brand-fourth, ease 0.35s);
@@ -75,6 +77,7 @@ ul.nav.nav-tabs,
 
 input.btn.btn-primary.idx_call2action {
     background-color: $brand-fourth;
+
     &:hover,
     &:active,
     &:focus {
@@ -90,14 +93,15 @@ input.btn.btn-primary.idx_call2action {
 }
 
 .hji-fieldwrap-inner:last-of-type {
-  padding: 0 0 0 2.5%;
+    padding: 0 0 0 2.5%;
 }
 
 .quick-search-widget-wrapper.horizontal .hji-action-buttons-wrap {
-  @media(min-width: $screen-sm) {
-    margin-top: initial;
-  }
+    @media (min-width: $screen-sm) {
+        margin-top: initial;
+    }
 }
+
 a.adv-options-toggle {
     color: $white;
 }

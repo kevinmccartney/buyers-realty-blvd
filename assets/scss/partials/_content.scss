@@ -3,16 +3,18 @@ body:not(.home) #content {
     padding: 2rem;
     box-shadow: $black 1px 2px 20px;
     background-color: $white;
+
     // ridx details pages
     #listing-details {
         margin: 0;
     }
+
     // bootstrap tabs
     .nav-tabs > li {
         margin-right: .5rem;
 
         &:not(.active) > a {
-            @include gradient-vertical( $body-bg, change-color( $body-bg, $body-bg, 5% ) );
+            @include gradient-vertical($body-bg, change-color($body-bg, $body-bg, 5%));
             border: 1px solid $nav-tabs-border-color;
         }
     }
@@ -22,10 +24,10 @@ body:not(.home) #content {
         border: 1px solid $nav-tabs-border-color;
         border-top: 0;
         border-radius: 0 0 $border-radius-base $border-radius-base;
-
     }
 }
 
+// geofarms featured image
 .hji-areas-featured-image {
     text-align: center;
     margin: 1rem 0;

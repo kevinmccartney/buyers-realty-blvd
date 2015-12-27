@@ -4,14 +4,15 @@
 }
 
 #footer .custom-agent-name {
-    color: $white;
     margin-top: 0;
+    color: $white;
 }
 
 #footer {
     .gform_button {
         border: 0 !important;
         background-color: $brand-fourth;
+
         &:hover,
         &:active,
         &:focus {
@@ -20,23 +21,25 @@
         }
     }
 }
+
 .well.custom-contact-widget {
     border: 0;
     background-color: transparent;
 }
 
 button.btn.btn-primary.custom-contact {
-    font-size: 2rem;
-    background-color: $brand-fourth;
     border: 0;
-    text-transform: uppercase;
-    letter-spacing: 10px;
     width: 100%;
+    background-color: $brand-fourth;
+    font-size: 2rem;
+    letter-spacing: 10px;
     text-shadow: $brand-fourth-dark-20 2px 2px 4px;
+    text-transform: uppercase;
 }
 
 .custom-footer-contact-wrapper a {
     color: $brand-fourth !important;
+
     &:hover,
     &:active,
     &:focus {
