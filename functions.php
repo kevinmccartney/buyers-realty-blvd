@@ -32,5 +32,5 @@ if ( !function_exists('hji_buyers_realty_load_fonts') ) {
         wp_register_style('googleFonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600');
         wp_enqueue_style( 'googleFonts');
     }
-    add_action('wp_enquque_scripts', 'load_fonts', 11);
+    add_action('wp_enquque_scripts', 'hji_buyers_realty_load_fonts', 11);
 }
