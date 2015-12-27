@@ -83,6 +83,21 @@ input.btn.btn-primary.idx_call2action {
     }
 }
 
+.hji-fieldwrap-inner.hji-yearbuilt-wrap,
+.hji-fieldwrap-inner.hji-size-wrap {
+    width: 50%;
+    display: inline-block;
+}
+
+.hji-fieldwrap-inner:last-of-type {
+  padding: 0 0 0 2.5%;
+}
+
+.quick-search-widget-wrapper.horizontal .hji-action-buttons-wrap {
+  @media(min-width: $screen-sm) {
+    margin-top: initial;
+  }
+}
 a.adv-options-toggle {
     color: $white;
 }

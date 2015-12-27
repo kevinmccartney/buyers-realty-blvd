@@ -34,3 +34,20 @@ button.btn.btn-primary.custom-contact {
     width: 100%;
     text-shadow: $brand-fourth-dark-20 2px 2px 4px;
 }
+
+.custom-footer-contact-wrapper a {
+    color: $brand-fourth !important;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+#idx-footer-compliance .compliance-asset {
+    margin: 1rem;
+}
+
+#footer {
+    padding: 3rem 0;
+}
