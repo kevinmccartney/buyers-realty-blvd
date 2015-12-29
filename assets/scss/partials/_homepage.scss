@@ -1,22 +1,25 @@
+// pins the slideshow to the bottom of the header
 .home .blvd-slideshow {
     top: inherit;
 }
 
+// adds a slight padding on the social icons under the header
 .home section#primary {
     margin-top: 1rem;
 }
 
+// styles for the widget titles
 .widget-title h3 {
     font-size: 3rem;
     letter-spacing: 2px;
     text-align: center;
 }
 
+
 .fullwidth-quicksearch-wrapper {
     margin-top: 35rem;
     background-color: $brand-primary;
 }
-
 
 .home button.btn.btn-primary.hv-submit,
 .home button.btn.btn-primary.search-now {
@@ -64,7 +67,7 @@ li.custom-content-items {
     margin: 0;
     padding: 0 10px;
     width: 50%;
-
+    // styling for the "buttons"
     a {
         border: 3px solid $white;
         margin: 0 !important;
@@ -86,6 +89,7 @@ li.custom-content-items {
     }
 }
 
+// active tab styling
 .homepage-custom-content-wrapper {
     .nav-tabs > li.active > a,
     .nav-tabs > li.active > a:hover,
@@ -118,6 +122,7 @@ h2.homepage-widget-custom-title {
     margin-top: 5rem;
 }
 
+// hides the ribbon on the map widget, as it currently returns an empty string
 .home .hji-areas-ribbon {
     display: none;
 }
@@ -134,6 +139,7 @@ h2.homepage-widget-custom-title {
 .custom-cta-pod {
     text-align: center;
 
+    // gutter between rows
     @media (max-width: $screen-md) {
         margin-top: 5rem;
     }
@@ -147,6 +153,7 @@ a.custom-cta {
     }
 }
 
+// flexbox!
 .custom-cta-inner {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -1,3 +1,4 @@
+// padding on the footer
 #footer {
     padding: 3rem 0;
 }
@@ -12,25 +13,7 @@
     color: $white;
 }
 
-#footer {
-    .gform_button {
-        border: 0 !important;
-        background-color: $brand-fourth;
-
-        &:hover,
-        &:active,
-        &:focus {
-            border: 0 !important;
-            background-color: $brand-fourth-dark-20;
-        }
-    }
-}
-
-.well.custom-contact-widget {
-    border: 0;
-    background-color: transparent;
-}
-
+// the contact us button
 button.btn.btn-primary.custom-contact {
     border: 0;
     width: 100%;
@@ -39,6 +22,24 @@ button.btn.btn-primary.custom-contact {
     letter-spacing: 10px;
     text-shadow: $brand-fourth-dark-20 2px 2px 4px;
     text-transform: uppercase;
+}
+
+// styles for the form in the footer
+.well.custom-contact-widget {
+    border: 0;
+    background-color: transparent;
+}
+
+#footer .gform_button {
+    border: 0 !important;
+    background-color: $brand-fourth;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 0 !important;
+        background-color: $brand-fourth-dark-20;
+    }
 }
 
 .custom-footer-contact-wrapper a {
@@ -51,6 +52,7 @@ button.btn.btn-primary.custom-contact {
     }
 }
 
+// margins for the IDX disclaimer photo
 #idx-footer-compliance .compliance-asset {
     margin: 1rem;
 }

@@ -1,3 +1,10 @@
+// puts a box shadow on the header
+header.banner.navbar {
+    box-shadow: $black 0px 5px 10px;
+}
+
+
+// makes the user bar 100% of the top-header
 .top-header .user-signup-header {
     width: 100%;
 }
@@ -12,19 +19,10 @@ a.hji-user-signup {
     }
 }
 
+// gives a margin to the menu above the grid float breakpoint
 div[id^="hji-theme-main-menu-widget"] {
     @media (min-width: $screen-lg) {
         margin-top: 7rem !important;
-    }
-}
-
-// this block sets styles the dropdown items in the main menu
-.blvd-responsive-menu .dropdown-menu > li > a {
-    &:hover,
-    &:active,
-    &:focus {
-        color: $white;
-        background-color: $brand-primary;
     }
 }
 
@@ -44,6 +42,13 @@ div[id^="hji-theme-main-menu-widget"] {
     }
 }
 
-header.banner.navbar {
-    box-shadow: $black 0px 5px 10px;
+// this block sets styles the dropdown items in the main menu
+.blvd-responsive-menu .dropdown-menu > li > a {
+    &:hover,
+    &:active,
+    &:focus {
+        color: $white;
+        background-color: $brand-primary;
+    }
 }
+

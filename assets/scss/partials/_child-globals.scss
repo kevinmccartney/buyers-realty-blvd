@@ -50,7 +50,6 @@ a.listing-title {
     }
 }
 
-// no borders, please
 .tab-content,
 .banner .top-header,
 ul.nav.nav-tabs,
@@ -60,6 +59,7 @@ ul.nav.nav-tabs,
     @include no_borders;
 }
 
+// sizes rIDX listings from 480px to 767px
 .idx-results {
     @include mobile_landscape {
         width: 75%;
@@ -74,6 +74,7 @@ ul.nav.nav-tabs,
     @include tab_styling;
 }
 
+// the search button on the rIDX serach widget
 input.btn.btn-primary.idx_call2action {
     background-color: $brand-fourth;
 
@@ -85,7 +86,7 @@ input.btn.btn-primary.idx_call2action {
     }
 }
 
-
+// responsive styling for the rIDX search widget
 .hji-fieldwrap-inner.hji-size-wrap,
 .hji-fieldwrap-inner.hji-yearbuilt-wrap {
     display: inline-block;
@@ -102,6 +103,7 @@ input.btn.btn-primary.idx_call2action {
     }
 }
 
+// changes advanced options toggle in the rIDX search widget color
 a.adv-options-toggle {
     color: $white;
 }
