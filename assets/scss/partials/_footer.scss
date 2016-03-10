@@ -1,16 +1,22 @@
-// padding on the footer
-#footer {
-    padding: 3rem 0;
-}
-
 // a bottom margin for the footer widgets so they don't sit right on top of the copyright
 .footer-widgets.row {
     margin-bottom: 2rem;
 }
 
-#footer .custom-agent-name {
+.custom-footer-contact-wrapper a {
+    color: $brand-fourth !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+.custom-agent-name {
     margin-top: 0;
     color: $white;
+    letter-spacing: 2px;
 }
 
 // the contact us button
@@ -33,22 +39,13 @@ button.btn.btn-primary.custom-contact {
 #footer .gform_button {
     border: 0 !important;
     background-color: $brand-fourth;
+    transition: ease 0.5s;
 
     &:hover,
     &:active,
     &:focus {
         border: 0 !important;
         background-color: $brand-fourth-dark-20;
-    }
-}
-
-.custom-footer-contact-wrapper a {
-    color: $brand-fourth !important;
-
-    &:hover,
-    &:active,
-    &:focus {
-        text-decoration: underline;
     }
 }
 

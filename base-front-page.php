@@ -4,7 +4,7 @@
     <body <?php body_class(); ?>>
         <!--[if lt IE 9]>
         <div class="alert alert-warning">
-            <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'hji-textdomain'); ?>
+            <?php _e( 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'hji-textdomain' ); ?>
         </div>
         <![endif]-->
         <div id="wrapper" class="body-wrapper">
@@ -27,7 +27,7 @@
                 </div>
             </section>
             <?php do_action( 'hji_theme_after_primary' ); ?>
-            <?php if( is_active_sidebar('fullwidth_qs') ) : ?>
+            <?php if( is_active_sidebar( 'fullwidth_qs' ) ) : ?>
                 <div class="fullwidth-quicksearch-wrapper widget-area container-fluid" role="complementary">
                     <?php dynamic_sidebar( 'fullwidth_qs' ); ?>
                 </div>
@@ -35,11 +35,11 @@
             <section class="container">
                 <?php if ( is_active_sidebar( 'blvd-homewidgets' ) ) : ?>
                     <div class="blvd-home-widgets row">
-                        <?php dynamic_sidebar( 'blvd-homewidgets'); ?>
+                        <?php dynamic_sidebar( 'blvd-homewidgets' ); ?>
                     </div>
                 <?php endif; ?>
-        </section>
-        <?php get_footer( hji_theme_template_base() ); ?>
-    </div>
-</body>
+            </section>
+            <?php get_footer( hji_theme_template_base() ); ?>
+        </div>
+    </body>
 </html>

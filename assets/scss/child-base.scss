@@ -1,11 +1,11 @@
-/* Boulevard Base Import */
+// Boulevard Base Import
 @import "../../../hji-boulevard/assets/scss/base";
 
-/* Import child variables & mixins */
+// Import child variables & mixins
 @import "child-variables";
 @import "partials/mixins";
 
-/* Import Child Theme Stuff */
+// Import Child Theme Stuff
 @import "partials/child-globals";
 @import "partials/content";
 @import "partials/footer";
