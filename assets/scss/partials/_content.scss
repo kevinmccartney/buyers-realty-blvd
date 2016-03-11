@@ -39,3 +39,11 @@ body:not(.home) #content {
 .entry-meta i {
     color: $brand-fourth;
 }
+
+// hiding extra word count lines on grav forms
+.ginput_container .ginput_counter {
+    display: none;
+    &:first-of-type {
+        display: initial;
+    }
+}

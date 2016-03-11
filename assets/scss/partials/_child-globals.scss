@@ -100,6 +100,7 @@ a.adv-options-toggle {
 // the mobile property search button
 div#idx-pullout {
     background-color: $brand-fourth;
+    text-shadow: black 1px 1px 3px;
 }
 
 // forces the save search button to have a grey background on IOS
@@ -113,4 +114,9 @@ input.save-search-btn.btn {
     .idx-results .idx-result-snippet .btn-wrapper > div {
         margin: 2% 4%;
     }
+}
+
+// colors for links in content pages
+.custom-link {
+    color: $brand-fourth;
 }
