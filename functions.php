@@ -46,7 +46,7 @@ if ( !function_exists( 'hji_buyers_realty_load_fonts' ) ) {
  */
 if ( !function_exists( 'hji_buyers_realty_load_scripts' ) ) {
     function hji_buyers_realty_load_scripts() {
-        wp_enqueue_script( 'bodega_scripts', get_stylesheet_directory_uri() . '/assets/js/main.js' );
+        wp_enqueue_script( 'hji_buyers_realty_scripts', get_stylesheet_directory_uri() . '/assets/js/main.js' );
     }
     add_action( 'wp_enqueue_scripts', 'hji_buyers_realty_load_scripts', 11 );
 }
