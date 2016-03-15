@@ -25,13 +25,11 @@
 .home button.btn.btn-primary.search-now {
     border-color: $brand-fourth;
     background-color: $brand-fourth;
-
     &:hover,
     &:active,
     &:focus {
         border-color: $brand-fourth-dark-20;
         background-color: $brand-fourth-dark-20;
-
     }
 }
 
@@ -44,11 +42,9 @@
 .homepage-custom-content-wrapper {
     margin: auto;
     padding: 2rem 0;
-
     .blvd-simplesearch-ridx {
         width: 100%;
     }
-
     @media (min-width: $screen-sm) {
         width: 75%;
     }
@@ -57,7 +53,6 @@
 .custom-content-nav-tabs {
     margin: auto;
     width: 100%;
-
     @media (min-width: $screen-sm) {
         width: 50%;
     }
@@ -78,7 +73,6 @@ li.custom-content-items {
         text-decoration: none;
         text-align: center;
         text-shadow: $brand-primary-dark-20 2px 2px 4px;
-
         &:hover,
         &:active,
         &:focus {
@@ -88,8 +82,8 @@ li.custom-content-items {
     }
 }
 
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
     background-color: $brand-fourth !important;
     border-color: $brand-fourth !important;
@@ -133,7 +127,6 @@ h2.homepage-widget-custom-title {
 
 .custom-cta-pod {
     text-align: center;
-
     // gutter between rows
     @media (max-width: $screen-md) {
         margin-top: 5rem;
@@ -167,13 +160,11 @@ a.custom-cta {
     border: 3px solid $brand-primary;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-
     &:hover,
     &:active {
         background-color: $brand-primary;
         -webkit-transform: scale(0.95);
         transform: scale(0.95);
-
         h3 {
             color: $white;
             text-shadow: darken($brand-primary, 30%) 5px 5px 10px;

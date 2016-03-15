@@ -5,7 +5,6 @@
 
 .custom-footer-contact-wrapper a {
     color: $brand-fourth !important;
-
     &:hover,
     &:active,
     &:focus {
@@ -39,8 +38,8 @@ button.btn.btn-primary.custom-contact {
 #footer .gform_button {
     border: 0 !important;
     background-color: $brand-fourth;
+    -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-
     &:hover,
     &:active,
     &:focus {

@@ -3,7 +3,6 @@ header.banner.navbar {
     box-shadow: $black 0px 5px 10px;
 }
 
-
 // makes the user bar 100% of the top-header
 .top-header .user-signup-header {
     width: 100%;
@@ -11,7 +10,6 @@ header.banner.navbar {
 
 a.hji-user-signup {
     color: $brand-fourth;
-
     &:hover,
     &:active,
     &:focus {
@@ -28,17 +26,14 @@ div[id^="hji-theme-main-menu-widget"] {
 
 // the mobile menu toggle
 .navbar-default .navbar-toggle {
-    border: 0;
+    @include no_borders;
     background-color: $brand-primary;
-
     .icon-bar {
         background-color: $white;
     }
-
     &:hover,
     &:focus,
     &:active {
-        border: 0;
         background-color: $brand-primary-light-20;
     }
 }
@@ -52,4 +47,3 @@ div[id^="hji-theme-main-menu-widget"] {
         background-color: $brand-primary;
     }
 }
-

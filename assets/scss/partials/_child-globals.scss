@@ -10,8 +10,7 @@ input[type="email"],
 .tools-panel,
 .selectize-input {
     // add our drop shadow effect to all buttons and form elements
-    @include box-shadow(-3px 3px 0 0 rgba(0, 0, 0, 0.18) !important);
-
+    @include box-shadow((-3px) 3px 0 0 rgba(0, 0, 0, 0.18) !important);
     &:active,
     &:focus,
     &.focus {
@@ -23,13 +22,11 @@ input[type="email"],
 .tools-panel {
     // adjusts border radius for box-shadow above
     border-radius: $border-radius-base;
-
     // removes individual box-shadow from buttons in the .tools-panel
     .btn,
     .add-to-favorites {
         @include box-shadow(none !important);
     }
-
     .btn-primary {
         line-height: initial;
     }
@@ -43,7 +40,6 @@ a {
 // applies the pretty_hover mixin to all rIDX pod titles
 a.listing-title {
     @include pretty_hover(none, $brand-fourth, ease 0.35s);
-
     h4 {
         font-weight: 600;
         @include pretty_hover(none, $brand-fourth, ease 0.35s);
@@ -76,7 +72,6 @@ ul.nav.nav-tabs,
 
 input.btn.btn-primary.idx_call2action {
     background-color: $brand-fourth;
-
     &:hover,
     &:active,
     &:focus {
@@ -110,7 +105,7 @@ input.save-search-btn.btn {
 
 // overrriding the button margins on ipads
 @media (max-width: 1200px) and (min-width: 768px) {
-    .rel-listing-wrap .btn-wrapper > div, 
+    .rel-listing-wrap .btn-wrapper > div,
     .idx-results .idx-result-snippet .btn-wrapper > div {
         margin: 2% 4%;
     }
@@ -119,4 +114,11 @@ input.save-search-btn.btn {
 // colors for links in content pages
 .custom-link {
     color: $brand-fourth;
+}
+
+// overriding button margins in quicksearch wrapper
+.quick-search-widget-wrapper.horizontal .hji-action-buttons-wrap {
+    @media(min-width: $screen-sm) {
+        margin-top: 0;
+    }
 }

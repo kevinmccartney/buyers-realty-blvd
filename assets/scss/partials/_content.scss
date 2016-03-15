@@ -4,17 +4,14 @@ body:not(.home) #content {
     padding: 2rem;
     box-shadow: $black 1px 2px 20px;
     background-color: $white;
-
     // bootstrap tabs
     .nav-tabs > li {
         margin-right: .5rem;
-
         &:not(.active) > a {
             @include gradient-vertical($body-bg, change-color($body-bg, $body-bg, 5%));
             border: 1px solid $nav-tabs-border-color;
         }
     }
-
     // bootstrap tab content
     .tab-content {
         border: 1px solid $nav-tabs-border-color;
@@ -35,7 +32,7 @@ body:not(.home) #content {
     padding: 1%;
 }
 
-// the icons in the blogo metadata
+// the icons in the blog metadata
 .entry-meta i {
     color: $brand-fourth;
 }
